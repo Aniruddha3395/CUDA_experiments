@@ -1,0 +1,30 @@
+clc;
+clear;
+close all;
+
+
+% mexcuda -c opt_obj.cu -lcudart; 
+% mex -L/usr/local/cuda/lib64 -lcudart -I./ -R2018a drape_sim.cpp opt_obj.o /usr/local/lib/libnlopt.so;  
+
+coords = dlmread('coords2.csv');
+free_indices = dlmread('free_indices2.csv');
+no_particles = dlmread('no_particles2.csv');
+node_info = dlmread('node_info2.csv');
+properties = dlmread('properties2.csv');
+X_init = dlmread('X_init2.csv');
+
+tic;
+[Xk,f_val] = drape_sim(coords,properties,node_info,no_particles,free_indices,X_init);
+toc;
+
+% MEX with only nlopt
+% mex -R2018a drape_sim.cpp opt_obj.cpp /usr/local/lib/libnlopt.so
+
+% MEX with nlopt and cuda together
+% mexcuda -c err_fun_cuda.cu -lcudart; 
+% mex -L/usr/local/cuda/lib64 -lcudart -I./ -R2018a drape_sim.cpp opt_obj.cpp err_fun_cuda.o /usr/local/lib/libnlopt.so;  
+
+%% NEW
+% mexcuda -c opt_obj.cu -lcudart; 
+% mex -L/usr/local/cuda/lib64 -lcudart -I./ -R2018a drape_sim.cpp opt_obj.o /usr/local/lib/libnlopt.so;  
+
