@@ -1,3 +1,0 @@
-/home/aniruddha/Desktop/Composite_Layup/CUDA_experiments/build/CMakeFiles/edit_cache.dir
-/home/aniruddha/Desktop/Composite_Layup/CUDA_experiments/build/CMakeFiles/OUTFile.dir
-/home/aniruddha/Desktop/Composite_Layup/CUDA_experiments/build/CMakeFiles/rebuild_cache.dir
