@@ -1,4 +1,8 @@
-// Author 	: Aniruddha Shembekar, Research Engineer, University of Southern California
+//****************************************************************************************
+//
+// Author : Aniruddha Shembekar, University of Southern California
+//
+//****************************************************************************************
 
 #include "compute_energy.hpp"
 #include "mex.h"
