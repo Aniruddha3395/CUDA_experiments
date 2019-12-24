@@ -1,3 +1,5 @@
+// Author   : Aniruddha Shembekar, Research Engineer, University of Southern California
+
 #include "string.h"
 #include <stdio.h>
 #include <cmath>

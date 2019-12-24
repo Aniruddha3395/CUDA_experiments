@@ -1,3 +1,5 @@
+// Author 	: Aniruddha Shembekar, Research Engineer, University of Southern California
+
 // #include "compute_energy.hpp"
 #include "mex.h"
 #include "matrix.h"

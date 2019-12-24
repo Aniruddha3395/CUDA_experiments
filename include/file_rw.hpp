@@ -1,3 +1,5 @@
+// Author   : Aniruddha Shembekar, Research Engineer, University of Southern California
+
 #ifndef FILE_RW
 #define FILE_RW
 

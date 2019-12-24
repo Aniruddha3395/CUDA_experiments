@@ -1,3 +1,5 @@
+// Author 	: Aniruddha Shembekar, Research Engineer, University of Southern California
+
 #ifndef TRANSFORMATION_UTILITIES
 #define TRANSFORMATION_UTILITIES
 

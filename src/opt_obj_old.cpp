@@ -1,3 +1,5 @@
+// Author   : Aniruddha Shembekar, Research Engineer, University of Southern California
+
 #include <iostream>
 #include <Eigen/Eigen>
 #include <vector>

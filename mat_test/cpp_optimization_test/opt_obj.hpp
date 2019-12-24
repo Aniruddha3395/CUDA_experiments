@@ -1,3 +1,5 @@
+// Author   : Aniruddha Shembekar, Research Engineer, University of Southern California
+
 #ifndef OPT_OBJ_RW
 #define OPT_OBJ_RW
 
